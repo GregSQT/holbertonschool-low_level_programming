@@ -13,4 +13,5 @@ void reset_to_98(int *n)
 int main(void) {
 	int n = 0;
 	reset_to_98(&n);
+	return 0;
 }
