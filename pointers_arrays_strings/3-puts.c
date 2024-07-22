@@ -6,7 +6,7 @@
  *
  */
 
-void reset_to_98(int *n)
-{
-	*n = 98;
+void _puts(char *str);
+}
+  printf("%s\n", str);
 }
