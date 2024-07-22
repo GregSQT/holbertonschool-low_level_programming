@@ -1,14 +1,12 @@
 #include <stdio.h>
 #include "main.h"
-/* This is a short description */
+/* Short description */
 
 /**
- * Exervices en C
- *
- */
-
-/**
+ * reset_to_98 - This is a function description
  * @n: First parameter
+ *
+ * Return: void
  */
 void reset_to_98(int *n)
 {
