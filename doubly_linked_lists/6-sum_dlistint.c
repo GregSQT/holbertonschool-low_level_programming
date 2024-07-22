@@ -6,7 +6,7 @@
 /**
  * sum_dlistint - This is a function description
  * @head: Parameter 1
- * 
+ *
  * Return: result
  */
 int sum_dlistint(dlistint_t *head)
