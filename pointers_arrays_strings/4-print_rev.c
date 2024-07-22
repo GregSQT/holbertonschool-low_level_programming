@@ -1,34 +1,36 @@
 #include <stdio.h>
-#include <main.h>
+#include <unistd.h>
+/* Short description */
 
 /**
- * Exervices en C 
+ * puts.c - This is a function description
+ * @s: First parameter
  *
+ * Return: void
  */
-
-void print_rev(char *s);
+int _strlen(char *s)
 {
-  if (s)
-  {
-    char * end = s + strlen(str) - 1;
+	int i;
 
-    // swap the values in the two given variables
-    // XXX: fails when a and b refer to same memory location
-#   define XOR_SWAP(a,b) do\
-    {\
-      a ^= b;\
-      b ^= a;\
-      a ^= b;\
-    } while (0)
+	for (i = 0; s[i] != '\0'; i++)
+	{
+	}
+	return (i);
+}
+/**
+ * @s: Parameter 1
+ */
+void print_rev(char *s)
+{
+	int length = _strlen(s);
+	int i;
 
-    // walk inwards from both ends of the string, 
-    // swapping until we get to the middle
-    while (s < end)
-    {
-      XOR_SWAP(*str, *end);
-      s++;
-      end--;
-    }
-#   undef XOR_SWAP
-  }
+	for (i = length - 1; i >= 0; i--)
+	{
+		char c[1];
+
+		c[0] = s[i];
+		write(STDOUT_FILENO, c, 1);
+	}
+	write(STDOUT_FILENO, "\n", 1);
 }
