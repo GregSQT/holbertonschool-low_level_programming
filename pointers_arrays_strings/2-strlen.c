@@ -1,19 +1,19 @@
 #include <stdio.h>
-#include <main.h>
+#include "main.h"
+/* Short description */
 
 /**
- * Exervices en C 
+ * strlen - Function
+ * @s: Parameter 1
  *
+ * Return: void
  */
-
-int string_length(char* given_string)
+ int _strlen(char *s)
 {
-	int length = 0;
-	int _strlen(char *s);
-		while (*s != '\0') {
-		length++;
-		s++;
-	}
+	int i;
 
-    return length;
+	for (i = 0; s[i] != '\0'; i++)
+	{
+	}
+	return (i);
 }
