@@ -2,7 +2,7 @@
 /* Short description */
 
 /**
- * puts.c - This is a function description
+ * _strlen - This is a function description
  * @s: First parameter
  *
  * Return: void
