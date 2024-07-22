@@ -3,7 +3,7 @@
 
 /**
   * print_array - Function
- * @s:  Parameter 1
+ * @s: Parameter 1
  *
  * Return: void
  */
