@@ -18,7 +18,7 @@ int _strlen(char *s)
 	return (i);
 }
 /**
- * @s: Parameter 1
+ * @s: 1st $Parameter
  */
 void print_rev(char *s)
 {
