@@ -1,12 +1,11 @@
 #include <stdio.h>
 #include "lists.h"
-/**
- * Short description
- */
+/* Short description */
 
 /**
- * print_dlistint: Comment
- * @h: head
+ * print_dlistint - This is a function description
+ * dlistint_t : First Parameter
+ * @h: Parameter 2
  * .
  * Return: count
  */
